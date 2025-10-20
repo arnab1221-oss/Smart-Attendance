@@ -1,0 +1,26 @@
+name: smart_attendance
+description: A QR-based Smart Attendance app for Institute of Engineering & Management (IEM).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.10.0
+  qr_flutter: ^4.0.0
+  qr_code_scanner: ^1.1.1
+  provider: ^6.0.5
+  device_info_plus: ^10.4.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

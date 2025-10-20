@@ -1,0 +1,7 @@
+You must generate firebase_options.dart by running:
+  dart pub global activate flutterfire_cli
+  flutterfire configure
+
+Put the generated lib/firebase_options.dart here. The project main.dart currently initializes Firebase with default options:
+  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+Instead, replace or enable the proper import in main.dart after generating firebase_options.dart.
